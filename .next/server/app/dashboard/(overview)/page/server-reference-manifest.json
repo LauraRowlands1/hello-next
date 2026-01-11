@@ -1,0 +1,16 @@
+{
+  "node": {
+    "00bfa58078b55ab61a074f6bd07e5afad25b03f6bd": {
+      "workers": {
+        "app/dashboard/(overview)/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/(overview)/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/ui/dashboard/sidenav.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/(overview)/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}
