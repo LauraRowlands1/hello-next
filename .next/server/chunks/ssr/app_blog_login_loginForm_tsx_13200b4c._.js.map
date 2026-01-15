@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/lrs08/Documents/Boost/hello-next/app/blog/login/loginForm.tsx"],"sourcesContent":["'use client';\nimport { FormEvent } from 'react';\n\nfunction onSubmit(event: FormEvent<HTMLFormElement>) {\n  event.preventDefault();\n  const formData = new FormData(event.currentTarget);\n  const response = await fetch('signIn', { method: 'POST', body: formData });\n  const data = await response.json();\n}\n\nexport default async function LoginForm() {\n  return (\n    <div>\n      <form onSubmit={onSubmit}>\n        <input type=\"text\" name=\"name\" />\n        <button type=\"submit\">Submit</button>\n      </form>\n    </div>\n  )\n}"],"names":[],"mappings":";;;;AAAA;;AAGA,SAAS,SAAS,KAAiC;IACjD,MAAM,cAAc;IACpB,MAAM,WAAW,IAAI,SAAS,MAAM,aAAa;IACjD,MAAM,WAAW,MAAM,MAAM,UAAU;QAAE,QAAQ;QAAQ,MAAM;IAAS;IACxE,MAAM,OAAO,MAAM,SAAS,IAAI;AAClC;AAEe,eAAe;IAC5B,qBACE,+YAAC;kBACC,cAAA,+YAAC;YAAK,UAAU;;8BACd,+YAAC;oBAAM,MAAK;oBAAO,MAAK;;;;;;8BACxB,+YAAC;oBAAO,MAAK;8BAAS;;;;;;;;;;;;;;;;;AAI9B","debugId":null}}]
+}

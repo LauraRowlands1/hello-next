@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/lrs08/Documents/Boost/hello-next/app/blog/layout.tsx"],"sourcesContent":["import TopNav from \"../ui/blog/topnav\";\n\nexport default function Layout({ children }: { children: React.ReactNode}) {\n  return (\n    <div></div>\n\n  )\n}\n"],"names":[],"mappings":";;;;;AAEe,SAAS,OAAO,EAAE,QAAQ,EAAgC;IACvE,qBACE,+YAAC;;;;;AAGL","debugId":null}}]
+}

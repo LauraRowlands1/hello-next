@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file:///Users/lrs08/Documents/Boost/hello-next/app/ui/blog/topnav.tsx"],"sourcesContent":["'use client';\nimport Link from 'next/link';\n\nconst links= [\n  { name: 'Home', href: '/blog/home' },\n  { name: 'Travels', href: '/blog/travels' },\n  { name: 'Login', href: '/blog/login' },\n]\n\nexport default function TopNav() {\n  return (\n    <div>\n      {links.map((link) => (\n        <Link href={link.href}>{link.name}</Link>\n      ))}\n    </div>\n  )\n}"],"names":[],"mappings":";;;;AACA;AADA;;;AAGA,MAAM,QAAO;IACX;QAAE,MAAM;QAAQ,MAAM;IAAa;IACnC;QAAE,MAAM;QAAW,MAAM;IAAgB;IACzC;QAAE,MAAM;QAAS,MAAM;IAAc;CACtC;AAEc,SAAS;IACtB,qBACE,+YAAC;kBACE,MAAM,GAAG,CAAC,CAAC,qBACV,+YAAC,6TAAA,CAAA,UAAI;gBAAC,MAAM,KAAK,IAAI;0BAAG,KAAK,IAAI;;;;;;;;;;;AAIzC","debugId":null}}]
+}

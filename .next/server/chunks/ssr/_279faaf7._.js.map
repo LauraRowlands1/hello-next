@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":["file:///Users/lrs08/Documents/Boost/hello-next/app/blog/travels/page.tsx"],"sourcesContent":["import Link from \"next/link\";\n\nexport default function Travels() {\n  return (\n    <div>\n      <div>\n        <h1>Travels Heading</h1>\n      </div>\n      <div>\n        <Link href=\"/travels/blog1\"></Link>\n      </div>\n    </div>\n  )\n}"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,+YAAC;;0BACC,+YAAC;0BACC,cAAA,+YAAC;8BAAG;;;;;;;;;;;0BAEN,+YAAC;0BACC,cAAA,+YAAC,6TAAA,CAAA,UAAI;oBAAC,MAAK;;;;;;;;;;;;;;;;;AAInB","debugId":null}}]
+}
